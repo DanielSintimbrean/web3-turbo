@@ -3,7 +3,7 @@ const config = {
   extends: [
     "next",
     "turbo",
-    "plugin:tailwind/recommended",
+    "plugin:tailwindcss/recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
     "prettier",
