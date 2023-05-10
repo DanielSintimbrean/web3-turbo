@@ -1,6 +1,5 @@
 import { createNextApiHandler } from "@trpc/server/adapters/next";
-
-import { appRouter, createTRPCContext } from "@acme/api";
+import { appRouter, createTRPCContext } from "@web3-turbo/api";
 
 // export API handler
 export default createNextApiHandler({

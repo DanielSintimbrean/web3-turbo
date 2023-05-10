@@ -3,7 +3,7 @@
   "extends": ["config:base"],
   "packageRules": [
     {
-      "matchPackagePatterns": ["^@acme/"],
+      "matchPackagePatterns": ["^@web3-turbo/"],
       "enabled": false
     }
   ],
