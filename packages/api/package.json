@@ -11,10 +11,10 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "@web3-turbo/auth": "^0.1.0",
-    "@web3-turbo/db": "^0.1.0",
     "@trpc/client": "^10.25.0",
     "@trpc/server": "^10.25.0",
+    "@web3-turbo/auth": "^0.1.0",
+    "@web3-turbo/db": "^0.1.0",
     "superjson": "1.9.1",
     "zod": "^3.21.4"
   },

@@ -3,6 +3,7 @@ const config = {
   extends: [
     "next",
     "turbo",
+    "plugin:tailwind/recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
     "prettier",
@@ -22,6 +23,8 @@ const config = {
       "error",
       { prefer: "type-imports", fixStyle: "inline-type-imports" },
     ],
+    "tailwindcss/no-custom-classname": "off",
+    "tailwindcss/classnames-order": "error",
   },
   ignorePatterns: ["**/*.config.js", "**/*.config.cjs", "packages/config/**"],
   reportUnusedDisableDirectives: true,
